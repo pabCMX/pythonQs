@@ -1,0 +1,107 @@
+Easy Questions:
+1. Print out your name on the screen
+#print func, f strings, str concat
+
+2. Count down from 700 to 200 in decrements of 13. 
+#for loops, range function, list comps
+
+3. Sum all the integers from 0 to 1000, make the program able to sum [x] to [y] assuming x is less than y.
+#more for loop, taking user input, creating variables, cleaning user input.
+
+4. Let the user input their [name], and check if it is "Jack." If so, print out "Hi Jack!" otherwise print out "Hello, [name]"
+#more input, if statements, and equivelence.
+
+5. Using the modulus operator, label all the even and odd numbers from 0-100. Do it again without modulus, and once more without using if/else/switch.
+#math! modulus, casting variables, hang ups.
+
+6. Print out the 12x12 multiplication grid. Try using only a single loop.
+#more print work, along with nesting loops. 
+
+7. Given a moderately long (10+ words) sentence, split it into words and display one word per line.
+#iteration through strings with list comprehensions, and creating functions to return answers.
+
+8. Generate three (3) random integers, each between 0 and 20, and find the max min and average of the three.
+#more func work, with intro to random and exstensibility
+
+9. For a certain school class, you are given a test and an optional project. For the test, if you score below 50 (out of 100), you get an F, 50-69 is a C, 70-89 is a B and 90-100 is an A. If you submit the optional project, you raise your grade by one letter. Let the user input their grade and whether they did the project (Y/N) and give them their final grade letter.
+#sideways thinking, match statements, taking user input with checks.
+
+10. Generate 100 random integers, each between 0-10,000. Accept a number input and check if it is on the list.
+#while loops to keep programs alive, troubleshooting work, and efficiently list checking
+
+11. Write a program to play "Higher/Lower" vs a computer, take turns to see who chooses and who guesses.
+#gathering project: being efficient, discarding invalid input, and being user friendly, intro to functions
+
+
+
+
+Medium Questions:
+*12. Make a standard deck of cards, shuffle the deck, and draw two cards at random. Display them.
+#array merging, simple randomness and probability, more functions.
+
+13. You are given an integer in the range of 0-10,000 representing a time in seconds; Convert it in the format of HH:mm:ss.
+#modulus review, casting and rounding, math intricacies
+
+14. Flip two coins and note whether they land as two heads, two tails or mixed. Do it a thousand times and display the results as three percentages.
+#nesting for loops, random work, counting iterations, simple math.
+
+15. After entering an initial amount of money and an interest rate, calculate how much money there will be after [x] years. Assume yearly compounding.
+#simple interest overview, using math to simplify programing work.
+
+*16. Generate a list of 200 integers, each between 0-10. Order it by size ascending, then size decending. Then order it by mode ascending, and mode descending. Mode is the measure of how frequent something appears in a set.
+#sorting systems, setting sort types, counting iterating arrays, and user friendly display, more function work.
+
+17. Use recursion to divide one integer by another, and also show the remainder. Try to handle negative numbers as well.
+#recursion, and when its useful, how modulus works, and functions.
+
+18. Convert a number from base 10 arabic numerals to roman numeral
+#function work, understanding design specs.
+
+19. Using only mathematical operations (no toString, concat, or similar methods) concatenate two positive integers.
+#math principles
+
+20. The numbers 121 and 123321 are palindromes. Check if positive integer [x] is a palindrome.
+#math like before, along with quick search.
+
+*21. The sum of all primes below 10 is 2+3+5+7 = 17. Find the sum of all primes below 2 million.
+#more math, the limitations of python, and speed optimization.
+
+#22. Assume you are retrieving an array of integers. This array has size 1000 and is supposed to be filled with all the unique integers between 0 and 999 in random order. Unfortuately, we don't know if the array is actually full and we also know that one of the integers was repeated by mistake, while all the rest are unique. Find the repeat as efficiently as you can.
+#capstone, iteration on partial lists, creating test data, sorting and error checking.
+
+
+
+
+Hard Questions:
+23. Ignoring whitespace, check if two strings are anagrams.
+#letter sort, iteration on str, boolean lists, whitespace ignore.
+
+24. Find all the prime factors of a positive integer entered by the user.
+#prime in reverse, saving factors to string, and recursion for the rest.
+
+25. Given an integer array of size 10, check if the integers are in ascending order, descending order, or neither.
+# array check, efficient(only 2 checks req.)
+26. Let the user enter a credit card number and use Luhn's algorithm to verify that it is valid.
+#learn and apply luhn's algorithm, return errors to user for another try.
+
+27. Generate a very large (<10e50) random integer. Check how many digits it has.
+#limits of types, checking for length, and memory limits.
+
+28. The coordinates of the center and radii of two circles are chosen randomly. Check if the circles intersect and where.
+#
+
+29. Write an algorithm that plays the towers of hanoi with "N" disks.
+#algorithm creating, more math
+
+30. A mouse maze consists of an array of 100x100 cells, each with 4 locked/unlocked doors. Starting in 0,0; with the goal placed randomly, and cells locked/unlocked randomly, guide a mouse to search for the goal, and back home. Remember every room it has been in before.
+#GUI drawing, visualization, and memory, more algorithms
+
+31. A square shaped state is divided into 50x50 counties. By law only 1 cinema is allowed per county. 20 have already opened. Assign them randomly, and find the county furthest from all opened cinemas for your new business.
+#distance calculate, random 2d Assign, and algorithms.
+
+32. Write a program that lets you play Tic-Tac-Toe vs a computer. Flip a coin to see who goes first. (Extra: The computer should never lose.)
+#gui interaction, algorithms, and randomness.
+
+Bonus Questions:
+1. Simulate a 3x3 sliding puzzle. Scramble it for n moves and let a program solve it.
+2. Simulate a 8x8 chess board that has the kings and queens but no other pieces. Obey the standard rules of chess, and let each move in a random vector (Direction and places.) until a check mate. If checkmate is impossible, declare a draw.
